@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CRUDWithWebApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class ProductController : ControllerBase
     {
@@ -34,7 +34,7 @@ namespace CRUDWithWebApi.Controllers
             }
         }
 
-        [HttpGet("id")]
+        [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
             try
@@ -101,7 +101,7 @@ namespace CRUDWithWebApi.Controllers
             }
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
             try
