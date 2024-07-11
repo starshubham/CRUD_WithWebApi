@@ -1,5 +1,3 @@
-CRUDWithWebApi.sln
-CRUDWithWebApi/bin
-CRUDWithWebApi/obj
-ConsumeWebApiByCoreMVC/bin
-ConsumeWebApiByCoreMVC/obj
+.vs/
+bin/
+obj/

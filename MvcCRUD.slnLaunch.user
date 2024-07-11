@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "CRUDWithWebApi\\CRUDWithWebApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "ConsumeWebApiByCoreMVC\\ConsumeWebApiByCoreMVC.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
